@@ -38,7 +38,7 @@ python也是支持的
 
 ```bash
 # 安装
-npm install code-note -g
+npm install @higher/code-note -g
 # 切换到目录
 cd dir
 # 执行命令 cn 目录 生成文件名
