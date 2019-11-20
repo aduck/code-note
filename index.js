@@ -56,7 +56,8 @@ function getFiles (dir = '.') {
   res.forEach(item => {
     item.forEach(v => {
       const {title = '', note = []} = v
-      data += `## ${title}\r\n\r\n`
+      if (!note.length) return
+      if (title) data += `## ${title}\r\n\r\n`
       data += `${note.join('\r\n')}\r\n\r\n`
     })
   })
