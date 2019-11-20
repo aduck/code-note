@@ -47,7 +47,6 @@ function getFiles (dir = '.') {
 ;(async () => {
   // 获取参数
   let args = process.argv.slice(2)
-  console.log('args', args)
   // 目录和目录名称
   let target = args[0]
   let filename = args[1] || target.split('/').slice(-1)[0]
