@@ -1,0 +1,16 @@
+{
+  "name": "code-note",
+  "version": "1.0.0",
+  "description": "直接根据项目代码注释生成文档",
+  "main": "index.js",
+  "bin": {
+    "cn": "./index.js"
+  },
+  "keywords": [
+    "code",
+    "comment",
+    "note"
+  ],
+  "author": "Higher",
+  "license": "MIT"
+}
