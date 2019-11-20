@@ -1,6 +1,6 @@
 {
   "name": "@higher/code-note",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "直接根据项目代码注释生成文档",
   "main": "index.js",
   "bin": {
